@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">اسئلة فوتوغرافية</string>
+    <string name="app_desc1">أهلا بتطبيق أسئلة فوتوغرافية</string>
+    <string name="enter_your_name">"اكتب اسمك هنا "</string>
+    <string name="app_desc2">هنا ستجد بعض الأسئلة  عن فن التصوير الفوتوغرافي لمعرفة كم تعرف عن هذا الفن\\n نتمنى الاستمتاع</string>
+    <string name="q_1">"مالذي يغير توازن اللون الابيض؟ "</string>
+    <string name="q_1_a_1">سرعة ايزو</string>
+    <string name="q_1_a_2">"درجة حرارة اللون "</string>
+    <string name="q_1_a_3">دقة تفاصيل الصورة</string>
+    <string name="q_2">درجة العزل في الصورة يعتمد على</string>
+    <string name="q_2_a_1">سرعة الغالق</string>
+    <string name="q_2_a_2">مصدر الضوء</string>
+    <string name="q_2_a_3">مساحة مستشعر الكاميرة</string>
+    <string name="q_3">للتصوير بأسلوب التعرض الطويل من المهم أن يستخدم</string>
+    <string name="q_3_a_1">فلاش الكاميرا</string>
+    <string name="q_3_a_2">الحامل الثلاثي للكاميرا</string>
+    <string name="q_3_a_3">كاميرا احترافية</string>
+    <string name="q_4">جودة الصورة تعتمد على</string>
+    <string name="q_4_a_1">سرعة الايزو</string>
+    <string name="q_4_a_2">توازن اللون الابيض</string>
+    <string name="q_4_a_3">البعد البؤري للعدسة</string>
+    <string name="q_5">التصوير بالمدى الديناميكي العالي HDR يساعد على</string>
+    <string name="q_5_a_1">ايجاد عزل عالي في الصورة</string>
+    <string name="q_5_a_2">تباين عالي في درجة الضوء</string>
+    <string name="q_5_a_3">للحصول على أقل تعريض مفرط أو ناقص في الصورة</string>
+    <string name="right_answers1">ممتاز:</string>
+    <string name="right_answers2">لقد أجبت جميع الأسئلة بشكل صحيح</string>
+    <string name="submit_answers">تقديم الإجابات</string>
+    <string name="wrong_answers">حاول مرة أخرى، من الأكيد تستطيع أن تجد الاجابة الصحيحة</string>
+    <string name="wrong_answers2">حاول مرة أخرى، من الأكيد تستطيع أن تجد الاجابة الصحيحة</string>
+    <string name="wrong_answers1">آسف</string>
+    <string name="no_name">رجاءا اكتب اسمك</string>
+    <string name="please_answer_quastion">لا يوجد جواب للسؤال رقم:</string>
+    <string name="hint">اكتب اسمك هنا</string>
+</resources>

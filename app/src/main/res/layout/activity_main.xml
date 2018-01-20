@@ -1,0 +1,456 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:custom="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    tools:context="com.example.oaamarasheed.quizapp.MainActivity"
+    >
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/scroll_view"
+   >
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:clickable="true"
+        android:focusableInTouchMode="true"
+       >
+
+        <TextView
+            android:id="@+id/app_desc_text_view1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/app_desc1"
+            android:textAlignment="center"
+            android:paddingLeft="8dp"
+            android:paddingBottom="2dp"
+            android:paddingRight="8dp"
+            android:paddingTop="10dp"
+            android:layout_gravity="center"
+            android:background="#7c2fe4"
+            android:textSize="20sp"
+            android:textColor="@android:color/white"
+            android:fontFamily="cursive"
+
+            android:layout_weight="1"
+
+            />
+
+        <TextView
+        android:id="@+id/app_desc_text_view2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/app_desc2"
+            android:paddingLeft="8dp"
+            android:paddingBottom="8dp"
+            android:paddingRight="8dp"
+            android:paddingTop="2dp"
+            android:layout_gravity="center"
+            android:textAlignment="center"
+            android:background="#7c2fe4"
+            android:textSize="18sp"
+        android:textColor="@android:color/white"
+            android:fontFamily="cursive"
+        android:layout_weight="1"
+
+
+        />
+
+        <EditText
+            android:id="@+id/enter_your_name_editText"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingLeft="16dp"
+            android:textAlignment="center"
+
+            android:layout_gravity="center"
+            android:hint="@string/hint"
+            android:textColorHint="#c2c2c2"
+            android:layout_weight="1"
+            android:background="#8d4be6"
+            android:textColor="@android:color/white"
+            android:textSize="18sp"
+            android:padding="12dp"
+
+
+
+
+            />
+
+        <LinearLayout
+            android:id="@+id/q_1_layout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+<!--quastion 1 xmls-->
+            <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="0dp"
+    android:layout_weight="1"
+    android:orientation="vertical">
+        <ImageView
+            android:src="@drawable/q1_image"
+                 android:id="@+id/q1_imageview"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+            android:scaleType="centerCrop"
+               />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="8dp"
+                android:textAlignment="center"
+                android:textSize="18sp"
+                android:fontFamily="sans-serif-condensed"
+
+                android:text="@string/q_1"
+                android:textColor="@android:color/white"
+                android:background="#cd2fe4"
+                />
+
+            <HorizontalScrollView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="8dp"
+
+
+                android:background="#d28fdc">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:layout_gravity="left">
+
+                    <CheckBox
+                        android:id="@+id/q_1_a1_check_box"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/q_1_a_1"
+                        android:textColor="@android:color/white"
+                        android:padding="8dp"/>
+
+                    <CheckBox
+                        android:id="@+id/q_1_a2_check_box"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/q_1_a_2"
+                        android:textColor="@android:color/white"/>
+                    <CheckBox
+                        android:id="@+id/q_1_a3_check_box"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/q_1_a_3"
+                        android:textColor="@android:color/white"
+                        android:padding="8dp"/>
+                </LinearLayout>
+
+
+            </HorizontalScrollView>
+    </LinearLayout>
+
+
+
+            <!--Quastion 2 xmls-->
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="0dp"
+    android:orientation="vertical"
+    android:layout_weight="1">
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/q2_image"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="8dp"
+                android:textAlignment="center"
+                android:textSize="18sp"
+                android:fontFamily="sans-serif-condensed"
+                android:text="@string/q_2"
+                android:textColor="@android:color/white"
+                android:background="#a724bb"/>
+
+            <HorizontalScrollView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="8dp"
+
+                android:background="#a770af">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <CheckBox
+                        android:id="@+id/q_2_a1_check_box"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/q_2_a_1"
+                        android:textColor="@android:color/white"
+                        android:padding="8dp"/>
+
+                    <CheckBox
+                        android:id="@+id/q_2_a2_check_box"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/q_2_a_2"
+                        android:textColor="@android:color/white"/>
+                    <CheckBox
+                        android:id="@+id/q_2_a3_check_box"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/q_2_a_3"
+                        android:textColor="@android:color/white"
+                        android:padding="8dp"/>
+                </LinearLayout>
+
+
+            </HorizontalScrollView>
+</LinearLayout>
+            <!--Quastion 3 xmls-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:orientation="vertical"
+                android:layout_weight="1">
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/q3_image"
+                 />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="8dp"
+                android:textAlignment="center"
+                android:textSize="18sp"
+                android:fontFamily="sans-serif-condensed"
+                android:text="@string/q_3"
+                android:textColor="@android:color/white"
+                android:background="#a724bb"/>
+
+            <HorizontalScrollView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="8dp"
+
+                android:background="#8f5e96">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <CheckBox
+                        android:id="@+id/q_3_a1_check_box"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/q_3_a_1"
+                        android:textColor="@android:color/white"
+                        android:padding="8dp"/>
+
+                    <CheckBox
+                        android:id="@+id/q_3_a2_check_box"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/q_3_a_2"
+                        android:textColor="@android:color/white"/>
+                    <CheckBox
+                        android:id="@+id/q_3_a3_check_box"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/q_3_a_3"
+                        android:textColor="@android:color/white"
+                        android:padding="8dp"/>
+                </LinearLayout>
+
+
+            </HorizontalScrollView>
+            </LinearLayout>
+            <!--Quastion 4 xmls-->
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:orientation="vertical"
+                android:layout_weight="1">
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/q4_image"
+           />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="8dp"
+                android:textAlignment="center"
+                android:textSize="18sp"
+                android:fontFamily="sans-serif-condensed"
+                android:text="@string/q_4"
+                android:textColor="@android:color/white"
+                android:background="#a724bb"/>
+
+            <HorizontalScrollView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="8dp"
+
+                android:background="#7e5285">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <CheckBox
+                        android:id="@+id/q_4_a1_check_box"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/q_4_a_1"
+                        android:textColor="@android:color/white"
+                        android:padding="8dp"/>
+
+                    <CheckBox
+                        android:id="@+id/q_4_a2_check_box"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/q_4_a_2"
+                        android:textColor="@android:color/white"/>
+                    <CheckBox
+                        android:id="@+id/q_4_a3_check_box"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/q_4_a_3"
+                        android:textColor="@android:color/white"
+                        android:padding="8dp"/>
+                </LinearLayout>
+
+
+            </HorizontalScrollView>
+            </LinearLayout>
+
+            <!--Quastion 5 xmls-->
+
+            <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:orientation="vertical"
+            android:layout_weight="1">
+            <ImageView
+
+                android:src="@drawable/q5_image"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:scaleType="centerCrop" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="8dp"
+                android:textAlignment="center"
+                android:textSize="18sp"
+                android:fontFamily="sans-serif-condensed"
+                android:text="@string/q_5"
+                android:textColor="@android:color/white"
+                android:background="#4a0d53"/>
+
+            <HorizontalScrollView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="8dp"
+
+                android:background="#6b4371">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <CheckBox
+                        android:id="@+id/q_5_a1_check_box"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/q_5_a_1"
+                        android:textColor="@android:color/white"
+                        android:padding="8dp"/>
+
+                    <CheckBox
+                        android:id="@+id/q_5_a2_check_box"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/q_5_a_2"
+                        android:textColor="@android:color/white"/>
+                    <CheckBox
+                        android:id="@+id/q_5_a3_check_box"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/q_5_a_3"
+                        android:textColor="@android:color/white"
+                        android:padding="8dp"/>
+                </LinearLayout>
+
+
+            </HorizontalScrollView>
+        </LinearLayout>
+
+        <TextView
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+
+                android:background="#471e7e"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+
+</ScrollView>
+
+
+
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="8dp"
+        android:background="#33713012"
+        android:layout_margin="8dp"
+android:padding="16dp"
+        android:onClick="submitAnswers"
+        android:text="@string/submit_answers"
+        android:textColor="@android:color/white"
+       />
+
+
+
+
+</RelativeLayout>
+
+

@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name">Photography Quiz-App</string>
+    <string name="app_desc1">Welcome to the Photography Quiz-app</string>
+    <string name="app_desc2">Here you we will have some question about photography and see how much do you know about photography\nHave fun :)</string>
+
+    <string name="q_1">What is controlling white balance? </string>
+    <string name="q_1_a_1">ISO</string>
+    <string name="q_1_a_2">Color temperature</string>
+    <string name="q_1_a_3">Image resolution</string>
+    <string name="q_2">The Pictures depth of field depends on:</string>
+    <string name="q_2_a_1">Shutter speed</string>
+    <string name="q_2_a_2">Light source</string>
+    <string name="q_2_a_3">Camera sensor size</string>
+    <string name="q_3">For long-exposure photography is important to have:</string>
+    <string name="q_3_a_1">Camera Flash</string>
+    <string name="q_3_a_2">Tripod</string>
+    <string name="q_3_a_3">Professionel DSLR Camera</string>
+    <string name="q_4">Image quality is affected by:</string>
+    <string name="q_4_a_1">ISO</string>
+    <string name="q_4_a_2">White balance</string>
+    <string name="q_4_a_3">Lens Focal Length</string>
+    <string name="q_5">HDR photography is useful for:</string>
+    <string name="q_5_a_1">To have high image depth of field</string>
+    <string name="q_5_a_2">To have more contrast in the picture</string>
+    <string name="q_5_a_3">To have less over- and underexposure areas</string>
+
+    <string name="enter_your_name">Click here to enter you Name</string>
+    <string name="submit_answers"> Submit Answers</string>
+
+    <string name="please_answer_quastion">"Please answer Quastion nr.: </string>
+    <string name="right_answers1">Congratulation:</string>
+    <string name="right_answers2">, you answered all questions correctly</string>
+    <string name="facebook">Share it on FB</string>
+    <string name="wrong_answers"> Try again, sure you will find the right answers</string>
+    <string name="hint"><font size="12">Click here to enter you Name</font></string>
+    <string name="no_name">Please enter you Name</string>
+    <string name="wrong_answers1">Sorry</string>
+    <string name="wrong_answers2">your answers was wrong. try again you can make it for sure ;) </string>
+
+
+</resources>

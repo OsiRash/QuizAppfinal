@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Fotografie Quiz-App</string>
+    <string name="app_desc1">Willkommen in der Fotografie-Quiz-App</string>
+    <string name="app_desc2">Hier haben wir ein paar Fragen zur Fotografie zu sehen, wie viel Sie über Fotografie wissen\\nViel Spaß :)</string>
+    <string name="hint"><font size="12">Klicken Sie hier, um Ihren Namen einzugeben</font></string>
+    <string name="no_name">Bitte geben Sie Ihren Namen ein</string>
+    <string name="please_answer_quastion">Bitte beantworten Sie die Quastion Nr .:</string>
+    <string name="q_1">Was steuert den Weißabgleich?</string>
+    <string name="q_1_a_1">ISO</string>
+    <string name="q_1_a_2">Farbtemperatur</string>
+    <string name="q_1_a_3">Bildauflösung</string>
+    <string name="q_2">Die Bilder Tiefenschärfe ist abhängig von:</string>
+    <string name="q_2_a_1">Verschlusszeit</string>
+    <string name="q_2_a_2">Lichtquelle</string>
+    <string name="q_3">"Für Langzeitbelichtungen ist es wichtig zu haben: "</string>
+    <string name="q_3_a_3">"Professionelle DSLR-Kamera "</string>
+    <string name="q_4">"Die Bildqualität wird beeinflusst von: "</string>
+    <string name="q_4_a_1">ISO</string>
+    <string name="q_4_a_2">Weißabgleich</string>
+    <string name="q_4_a_3">"Brennweite des Objektivs "</string>
+    <string name="q_5">" HDR-Fotografie ist nützlich für:"</string>
+    <string name="q_5_a_1">"Um mehr Bildtiefe zu haben "</string>
+    <string name="q_5_a_2">" Um mehr Kontrast im Bild zu haben"</string>
+    <string name="q_5_a_3">"Um weniger Über- und Unterbelichtungsbereiche zu haben "</string>
+    <string name="right_answers2">,  Sie haben alle Fragen genau beantwortet</string>
+    <string name="submit_answers">Antworten einreichen</string>
+    <string name="wrong_answers">Versuchen Sie es noch einmal, Sie werden die richtigen Antworten finden</string>
+    <string name="wrong_answers1">schade</string>
+    <string name="wrong_answers2">Deine Antworten waren falsch. versuch es nochmal, du kannst es sicher machen;)</string>
+    <string name="q_2_a_3">"Kamera Sensorgröße "</string>
+    <string name="q_3_a_1">Kamerablitz</string>
+    <string name="q_3_a_2">Stativ</string>
+    <string name="right_answers1">Glückwunsch:</string>
+
+</resources>
