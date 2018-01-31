@@ -7,38 +7,20 @@
     >
 
 <ImageView
-    android:layout_width="match_parent"
-    android:layout_height="wrap_content"
+   style="@style/popUpimagView"
     android:src="@drawable/right_answers"
-    android:scaleType="centerCrop"/>
+   />
 
     <TextView
+        style="@style/popUpTextView"
         android:id="@+id/nice_job"
-        android:layout_centerHorizontal="true"
-    android:layout_centerInParent="true"
-        android:layout_alignParentBottom="true"
-        android:background="#50500000"
-        android:textAlignment="center"
-        android:padding="16dp"
-
-        android:textSize="18dp"
-        android:gravity="center"
-    android:layout_width="match_parent"
-    android:layout_height="wrap_content"
-
-    android:textColor="@android:color/white"/>
-    <!--<Button-->
-        <!--android:id="@+id/facebook"-->
-        <!--android:layout_below="@id/nice_job"-->
-        <!--android:padding="16dp"-->
-        <!--android:textColor="@android:color/white"-->
-        <!--android:layout_width="wrap_content"-->
-        <!--android:layout_centerHorizontal="true"-->
-        <!--android:layout_height="wrap_content"-->
-        <!--android:background="@drawable/roundedbutton"-->
-
-
-        <!--android:text="@string/facebook"/>-->
+         />
+    <Button
+        style="@style/faceBookButton"
+        android:layout_above= "@id/nice_job"
+        android:id="@+id/facebook"
+        android:text="@string/facebook"
+        android:onClick="onCLick"/>
 
 
 </RelativeLayout>

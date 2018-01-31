@@ -7,10 +7,181 @@
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
         <item name="colorAccent">@color/colorAccent</item>
     </style>
-<style name="AppTheme.PopUpthem">
 
-<item name="android:windowIsTranslucent">true</item>
-<item name="android:windowCloseOnTouchOutside">true</item>
-</style>
+    <!-- popUp thems -->
 
+    <style name="AppTheme.PopUpthem">
+
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowCloseOnTouchOutside">true</item>
+    </style>
+
+
+
+
+    <!--app descreption texts-->
+    <style name="appDescrepteinText1">
+         <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:paddingLeft">8dp</item>
+        <item name="android:paddingBottom">2dp</item>
+        <item name="android:paddingRight">8dp</item>
+        <item name="android:paddingTop">10dp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:background">#7c3fe4</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:fontFamily">cursive</item>
+        <item name="android:layout_weight">1</item>
+    </style>
+    <style name="appDescrepteinText2">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:paddingLeft">8dp</item>
+        <item name="android:paddingBottom">8dp</item>
+        <item name="android:paddingRight">8dp</item>
+        <item name="android:paddingTop">2dp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:background">#7c3fe4</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:fontFamily">cursive</item>
+        <item name="android:layout_weight">1</item>
+    </style>
+
+
+
+
+
+<!--Edit View Style-->
+    <style name="editTextStyle">
+        <item name="android:layout_width">match_parent</item>
+<item name="android:layout_height">match_parent</item>
+<item name="android:textAlignment">center</item>
+<item name="android:gravity">center</item>
+<item name="android:textColorHint">#c2c2c2</item>
+<item name="android:layout_weight">1</item>
+        <item name="android:textColor">@android:color/white</item>
+<item name="android:background">#8d4be6</item>
+<item name="android:textSize">18sp</item>
+        <item name="android:padding">12dp</item>
+
+    </style>
+
+    <!-- all Quastion and answers them -->
+
+    <style name="quastionLinearLayout">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:orientation">vertical</item>
+
+    </style>
+
+
+
+    <style name="quastionsImage">
+
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">100dp</item>
+        <item name= "android:layout_weight">2</item>
+        <item name="android:scaleType">centerCrop</item>
+
+
+    </style>
+    <style name="quastionsTexts">
+
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">0dp</item>
+        <item name= "android:layout_weight">1</item>
+        <item name="android:padding">8dp</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:fontFamily">sans-serif-condensed</item>
+        <item name="android:textColor">@android:color/white</item>
+
+    </style>
+
+    <style name="answersTextsHorizontalScrollView">
+
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">0dp</item>
+        <item name="android:padding">8dp</item>
+       <item name="android:layout_weight">1</item>
+
+    </style>
+
+    <style name="answersTextsLineaLayout">
+
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:orientation">horizontal</item>
+        <item name="android:layout_gravity">left</item>
+
+    </style>
+
+
+    <style name="answersTextsCheckboxes">
+
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:padding">8dp</item>
+        <item name="android:textColor">@android:color/white</item>
+
+    </style>
+
+    <!--button style-->
+    <style name="submetAnswersButton">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:layout_alignParentBottom">true</item>
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:layout_marginBottom">8dp</item>
+        <item name="android:padding">16dp</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:background">#33713012</item>
+
+    </style>
+    <style name="placeHolder">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">75dp</item>
+        <item name="android:background">#471e7e</item>
+    </style>
+
+
+    <style name="popUpTextView">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">#50500000</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:padding">16dp</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:layout_alignParentStart">true</item>
+        <item name="android:layout_alignParentLeft">true</item>
+        <item name="android:layout_alignParentBottom">true</item>
+        <item name="android:layout_marginBottom">47dp</item>
+    </style>
+    <style name="popUpimagView">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:scaleType">centerCrop</item>
+        <item name="android:layout_centerInParent">true</item>
+    </style>
+    <style name="faceBookButton">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:padding">16dp</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:background">@drawable/roundedbutton</item>
+
+
+
+
+    </style>
 </resources>
